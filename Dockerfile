@@ -1,6 +1,6 @@
 FROM jenkins/jnlp-slave:alpine as jnlp
 
-FROM node:alpine
+FROM node:10.17-alpine
 
 RUN apk -U add openjdk8-jre git openssh-client
 
